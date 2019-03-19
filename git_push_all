@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for d in ./test-*/ ; do (echo "$d" && cd "$d" && git push); done
